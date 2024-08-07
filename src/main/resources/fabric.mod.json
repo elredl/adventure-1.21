@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "adventure",
+	"version": "${version}",
+	"name": "Adventure",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Elredl"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/adventure/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.elredl.adventure.Adventure"
+		],
+		"fabric-datagen": [
+			"net.elredl.adventure.AdventureDataGenerator"
+		],
+		"client": [
+			"net.elredl.adventure.AdventureModClient"
+		]
+	},
+	"mixins": [
+		"adventure.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
