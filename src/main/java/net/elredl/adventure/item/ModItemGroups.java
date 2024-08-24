@@ -22,6 +22,6 @@ public class ModItemGroups {
                     }).build());
 
     public static void registerItemGroups() {
-        Adventure.LOGGER.info("Registering Item Groups for " + Adventure.MOD_ID);
+        Adventure.LOGGER.info("Registering Item and Block Groups for " + Adventure.MOD_ID);
     }
 }
