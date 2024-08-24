@@ -22,6 +22,8 @@ public class ModItems {
             new RuinedGreatsword(new Item.Settings()));
     public static final Item GIGANT_GREATSWORD = registerItem("gigant_greatsword",
             new GigantGreatsword(new Item.Settings()));
+    public static final Item CHAINED_FURY = registerItem("chained_fury",
+            new GigantGreatsword(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Adventure.MOD_ID, name), item);

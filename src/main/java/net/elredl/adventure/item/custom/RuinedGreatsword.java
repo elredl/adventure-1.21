@@ -18,7 +18,7 @@ public class RuinedGreatsword extends Item {
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
         ItemStack itemStack = user.getStackInHand(hand);
         user.setCurrentHand(hand);
-        user.getItemCooldownManager().set(this, 5);
+        user.getItemCooldownManager().set(this, 50);
         return TypedActionResult.consume(itemStack);
     }
 }

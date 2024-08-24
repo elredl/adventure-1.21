@@ -1,8 +1,10 @@
 {
   "item.adventure.artificial_sword_core": "Artificial Sword Core",
   "item.adventure.sword_core": "Sword Core",
+
   "item.adventure.ruined_greatsword": "Ruined Greatsword",
   "item.adventure.gigant_greatsword": "Gigant's Greatsword",
+  "item.adventure.chained_fury": "The Chained One's Fury",
 
   "itemgroup.adventure": "Adventurer's Swords"
 }

@@ -8,8 +8,8 @@ import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.World;
 
 
-public class GigantGreatsword extends Item {
-    public GigantGreatsword(Settings settings) {
+public class ChainedFury extends Item {
+    public ChainedFury(Settings settings) {
         super(settings);
     }
 
