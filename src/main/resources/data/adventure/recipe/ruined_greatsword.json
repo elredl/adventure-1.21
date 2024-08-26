@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:blackstone"
+    },
+    "Q": {
+      "tag": "adventure:sword_core_items"
+    },
+    "R": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "S": {
+      "item": "minecraft:netherite_sword"
+    }
+  },
+  "pattern": [
+    " ##",
+    "RQ#",
+    "SR "
+  ],
+  "result": {
+    "count": 1,
+    "id": "adventure:ruined_greatsword"
+  }
+}

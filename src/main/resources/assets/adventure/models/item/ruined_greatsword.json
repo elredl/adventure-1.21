@@ -4,7 +4,7 @@
 		"2": "adventure:item/ruined_greatsword/rg_blade",
 		"3": "adventure:item/ruined_greatsword/rg_hilt",
 		"4": "adventure:item/ruined_greatsword/rg_detail",
-		"particle": "adventure:item/rg_hilt"
+		"particle": "adventure:item/ruined_greatsword/rg_detail"
 	},
 	"elements": [
 		{

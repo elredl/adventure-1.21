@@ -5,8 +5,7 @@ import net.elredl.adventure.item.custom.GigantGreatsword;
 import net.elredl.adventure.item.custom.RuinedGreatsword;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -19,11 +18,13 @@ public class ModItems {
             new Item(new Item.Settings()));
 
     public static final Item RUINED_GREATSWORD = registerItem("ruined_greatsword",
-            new RuinedGreatsword(new Item.Settings()));
+            new RuinedGreatsword(ModToolMaterials.SWORD_CORE,
+                    new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.SWORD_CORE, 3, -2.4f))));
     public static final Item GIGANT_GREATSWORD = registerItem("gigant_greatsword",
             new GigantGreatsword(new Item.Settings()));
     public static final Item CHAINED_FURY = registerItem("chained_fury",
             new GigantGreatsword(new Item.Settings()));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Adventure.MOD_ID, name), item);
