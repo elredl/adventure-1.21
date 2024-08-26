@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "R": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "S": {
+      "item": "minecraft:heavy_core"
+    },
+    "T": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "pattern": [
+    "#T#",
+    "RSR",
+    "#T#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "adventure:artificial_sword_core"
+  }
+}
