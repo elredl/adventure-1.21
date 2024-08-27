@@ -2,6 +2,7 @@ package net.elredl.adventure.item;
 
 import net.elredl.adventure.Adventure;
 import net.elredl.adventure.item.custom.GigantGreatsword;
+import net.elredl.adventure.item.custom.MourningStar;
 import net.elredl.adventure.item.custom.RuinedGreatsword;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -19,6 +20,9 @@ public class ModItems {
 
     public static final Item RUINED_GREATSWORD = registerItem("ruined_greatsword",
             new RuinedGreatsword(ModToolMaterials.SWORD_CORE,
+                    new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.SWORD_CORE, 3, -2.4f))));
+    public static final Item MOURNING_STAR = registerItem("mourning_star",
+            new MourningStar(ModToolMaterials.SWORD_CORE,
                     new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.SWORD_CORE, 3, -2.4f))));
     public static final Item GIGANT_GREATSWORD = registerItem("gigant_greatsword",
             new GigantGreatsword(new Item.Settings()));

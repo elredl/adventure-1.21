@@ -20,6 +20,7 @@ public class ModItemGroups {
                         entries.add(ModItems.RUINED_GREATSWORD);
                         entries.add(ModItems.GIGANT_GREATSWORD);
                         entries.add(ModItems.CHAINED_FURY);
+                        entries.add(ModItems.MOURNING_STAR);
                     }).build());
 
     public static void registerItemGroups() {
