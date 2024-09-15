@@ -1,6 +1,6 @@
 package net.elredl.adventure.item.custom;
 
-import net.elredl.adventure.projectile.custom.GhostSwordProjectile;
+//import net.elredl.adventure.projectile.custom.GhostSwordProjectile;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;

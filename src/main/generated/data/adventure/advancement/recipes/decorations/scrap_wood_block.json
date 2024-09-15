@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_scrap_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": "adventure:scrap_wood"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adventure:scrap_wood_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_scrap_wood"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adventure:scrap_wood_block"
+    ]
+  }
+}

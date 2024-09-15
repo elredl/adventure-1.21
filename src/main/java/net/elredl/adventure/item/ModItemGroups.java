@@ -1,6 +1,7 @@
 package net.elredl.adventure.item;
 
 import net.elredl.adventure.Adventure;
+import net.elredl.adventure.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.minecraft.item.ItemGroup;
@@ -21,6 +22,12 @@ public class ModItemGroups {
                         entries.add(ModItems.GIGANT_GREATSWORD);
                         entries.add(ModItems.CHAINED_FURY);
                         entries.add(ModItems.MOURNING_STAR);
+                        entries.add(ModItems.HELIOS_HELMET);
+                        entries.add(ModItems.HELIOS_CHESTPLATE);
+                        entries.add(ModBlocks.SCRAP_WOOD_BLOCK);
+                        entries.add(ModItems.SCRAP_WOOD);
+                        entries.add(ModItems.GOBLIN_SLOP);
+                        entries.add(ModItems.GOBLIN_SPAWN_EGG);
                     }).build());
 
     public static void registerItemGroups() {

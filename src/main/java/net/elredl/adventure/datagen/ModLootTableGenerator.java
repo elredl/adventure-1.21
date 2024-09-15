@@ -1,5 +1,6 @@
 package net.elredl.adventure.datagen;
 
+import net.elredl.adventure.block.ModBlocks;
 import net.elredl.adventure.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
@@ -27,7 +28,7 @@ public class ModLootTableGenerator extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-//        addDrop(ModBlocks.INSERT_BLOCK_HERE);
+        addDrop(ModBlocks.SCRAP_WOOD_BLOCK, sampleOreDrops(ModBlocks.SCRAP_WOOD_BLOCK, ModItems.SCRAP_WOOD, 4, 4));
 //        addDrop(ModBlocks.INSERT_ORE, sampleOreDrops(ModBlocks.INSERT_ORE, ModItems.INSERT_ORE_DROP, 1, 5));
     }
 

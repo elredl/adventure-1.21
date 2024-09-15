@@ -1,3 +1,9 @@
-// 1.21	2024-08-26T08:26:57.8775287	Adventure/Model Definitions
+// 1.21	2024-09-11T12:07:35.1533713	Adventure/Model Definitions
+649aba60f12d5898e1e7d015a7531ca71df88755 assets\adventure\models\block\scrap_wood_block.json
+d3641793875fa6330af212e24aa4c427aeed817f assets\adventure\blockstates\scrap_wood_block.json
 569a6c95a9fd7ca75d2718ad0569d73959d0b1af assets\adventure\models\item\sword_core.json
+f12dde8886bfcd248cf1cf1d9ebbe3377770bd90 assets\adventure\models\item\goblin_slop.json
 52218d5831a67cbff5b6379f8d4b8f751fe9b3d6 assets\adventure\models\item\artificial_sword_core.json
+3f507baf4d6c226ca5627d1664ac5c388b37c7cc assets\adventure\models\item\scrap_wood_block.json
+63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets\adventure\models\item\goblin_spawn_egg.json
+faba8fec4152b65e4b65839d382b9bd7228f6654 assets\adventure\models\item\scrap_wood.json

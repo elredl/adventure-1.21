@@ -1,5 +1,6 @@
 package net.elredl.adventure.datagen;
 
+import net.elredl.adventure.block.ModBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
@@ -15,6 +16,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
-        //getOrCreateTagBuilder(BlockTags.+++)
+        getOrCreateTagBuilder(BlockTags.PLANKS)
+                .add(
+                        ModBlocks.SCRAP_WOOD_BLOCK
+                );
     }
 }

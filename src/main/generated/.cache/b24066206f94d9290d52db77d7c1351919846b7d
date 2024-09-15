@@ -1,3 +1,7 @@
-// 1.21	2024-08-26T08:26:57.8785249	Adventure/Recipes
+// 1.21	2024-09-11T12:07:35.1553674	Adventure/Recipes
 42a44c2fc5b2997d82370a600810aada1a93d4be data\adventure\recipe\artificial_sword_core.json
+3cf8c6e8339494bce905b176a3c2a11f197d89d1 data\adventure\advancement\recipes\misc\goblin_slop.json
+a387ca9884900f184b42684c79018231664166b8 data\adventure\recipe\scrap_wood_block.json
+e3c6a4e336f879eb8033df0aac438ddc970e8eb2 data\adventure\recipe\goblin_slop.json
 11e085ea83ae390292514598bd83add81a0ae51e data\adventure\advancement\recipes\misc\artificial_sword_core.json
+f33e389a11f0c9d0fd86c5dd5cea431f21d099e7 data\adventure\advancement\recipes\decorations\scrap_wood_block.json

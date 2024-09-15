@@ -1,6 +1,6 @@
 package net.elredl.adventure.item.custom;
 
-import net.elredl.adventure.projectile.custom.GhostSwordProjectile;
+//import net.elredl.adventure.projectile.custom.GhostSwordProjectile;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -20,12 +20,12 @@ public class RuinedGreatsword extends SwordItem {
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
         ItemStack itemStack = user.getStackInHand(hand);
         user.setCurrentHand(hand);
-        if (!user.getItemCooldownManager().isCoolingDown(itemStack.getItem())) {
-            user.getItemCooldownManager().set(this, 50);
-            GhostSwordProjectile ghostSwordProjectile = new GhostSwordProjectile(world);
-            ghostSwordProjectile.setVelocity(user, user.getPitch(), user.getYaw(), 0.0F, 1.5F, 1.0F);
-            world.spawnEntity(ghostSwordProjectile);
-        }
+//        if (!user.getItemCooldownManager().isCoolingDown(itemStack.getItem())) {
+//            user.getItemCooldownManager().set(this, 50);
+//            GhostSwordProjectile ghostSwordProjectile = new GhostSwordProjectile(world);
+//            ghostSwordProjectile.setVelocity(user, user.getPitch(), user.getYaw(), 0.0F, 1.5F, 1.0F);
+//            world.spawnEntity(ghostSwordProjectile);
+//        }
         return TypedActionResult.consume(itemStack);
     }
 

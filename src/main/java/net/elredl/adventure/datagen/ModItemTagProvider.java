@@ -19,5 +19,6 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ModTags.Items.SWORD_CORE_ITEMS)
                 .add(ModItems.ARTIFICIAL_SWORD_CORE)
                 .add(ModItems.SWORD_CORE);
+
     }
 }

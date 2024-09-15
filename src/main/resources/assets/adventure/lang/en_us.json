@@ -1,6 +1,12 @@
 {
   "item.adventure.artificial_sword_core": "Artificial Sword Core",
   "item.adventure.sword_core": "Sword Core",
+  "item.adventure.scrap_wood": "Scrap Wood",
+  "item.adventure.goblin_slop": "Goblin Slop",
+  "item.adventure.goblin_spawn_egg": "Goblin Spawn Egg",
+
+
+  "block.adventure.scrap_wood_block": "Scrap Wood Block",
 
   "item.adventure.ruined_greatsword": "Ruined Greatsword",
   "item.adventure.gigant_greatsword": "Gigant's Greatsword",
